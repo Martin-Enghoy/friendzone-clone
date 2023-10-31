@@ -1,9 +1,11 @@
 import Button from "@/components/ui/Button";
+import { authOptions } from "@/lib/auth";
+import { getServerSession } from "next-auth";
 import { FunctionComponent } from "react";
 
-interface DashboardPageProps {}
+const DashboardPage = async ({}) => {
+  const session = await getServerSession(authOptions);
 
-const DashboardPage: FunctionComponent<DashboardPageProps> = () => {
   return (
     <Button size="default" variant="default">
       Hello
