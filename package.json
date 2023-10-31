@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
     "@next-auth/upstash-redis-adapter": "^3.0.4",
     "@tailwindcss/forms": "^0.5.6",
     "@types/node": "20.8.9",
@@ -16,6 +17,7 @@
     "@types/react-dom": "18.2.14",
     "@upstash/redis": "^1.24.2",
     "autoprefixer": "10.4.16",
+    "axios": "^1.6.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "eslint": "8.52.0",
@@ -26,9 +28,11 @@
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.47.0",
     "react-hot-toast": "^2.4.1",
     "tailwind-merge": "^2.0.0",
     "tailwindcss": "3.3.5",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "zod": "^3.22.4"
   }
 }
